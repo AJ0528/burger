@@ -4,7 +4,7 @@ USE burgers_db;
 CREATE TABLE burgers
 (
 	id INT AUTO_INCREMENT NOT NULL,
-	name VARCHAR(225) NOT NULL,
+	 name VARCHAR(225) NOT NULL,
 	devoured TINYINT(1) default '0',
 	date TIMESTAMP NOT NULL default CURRENT_TIMESTAMP,
 	PRIMARY KEY(id)
